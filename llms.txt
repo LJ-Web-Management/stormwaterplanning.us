@@ -1,0 +1,25 @@
+# Stormwater Planning Training (stormwaterplanning.us)
+
+> stormwaterplanning.us offers self-paced online training for construction stormwater compliance: the 7-hour Qualified SWPPP Practitioner (QSP) course for field inspections and BMP implementation, and the 7-hour Qualified SWPPP Preparer course for developing and maintaining the Stormwater Pollution Prevention Plan (SWPPP) document itself. Both courses are available in English and Spanish, are mobile-friendly, and issue a certificate of completion immediately. Courses are aligned with the Clean Water Act (Section 402), the EPA NPDES program (40 CFR 122.26), and Construction General Permit (CGP) requirements.
+
+Stormwater Planning Training is a subsidiary of Industrial Certified Training, LLC, and partners with HAZWOPER OSHA Training, LLC. Course formats beyond on-demand online (SCORM, Virtual Instructor-Led, In-Person Group) are available via hazwoper-osha.com.
+
+## Courses
+
+- [QSP Practitioner Training](https://www.stormwaterplanning.us/#pricing): 7 hours, $379.99/seat, certificate valid 24 months. Field-focused course for site supervisors, inspectors, field crews, and maintenance staff — SWPPP fundamentals and regulatory framework, the QSP's role and duties, recognizing stormwater hazards, BMP selection and installation, site inspections and reporting, pollution prevention in the field, and applying best professional judgment to site conditions.
+- [SWPPP Preparer Training](https://www.stormwaterplanning.us/#pricing): 7 hours, $379.99/seat, certificate valid 36 months. Document-focused course for engineers, environmental consultants, and project/compliance managers — SWPPP fundamentals and key elements, Clean Water Act & CGP requirements, the Preparer's role and certification statements, site hazard and risk assessment, BMP selection and design criteria, monitoring and numeric limits (Numeric Action Levels/Numeric Effluent Limits), and documentation, updates, and final stabilization.
+
+## Resources
+
+- [Stormwater Training FAQ](https://www.stormwaterplanning.us/frequently-asked-questions/): Answers on SWPPP basics, who needs stormwater training, permits and legal requirements, inspection frequency, non-compliance consequences, related certifications (CESCL, QSP, QSD, CPESC), course length and cost benchmarks, and course format options (general guidance only, not legal advice).
+
+## Other Formats
+
+- [HAZWOPER-OSHA.com — QSP Practitioner listing](https://hazwoper-osha.com/online-courses/qualified-swppp-practitioner-qsp-training): Virtual Instructor-Led ($419/person, min. 10) and In-Person Group ($1,095/person, min. 10) options.
+- [HAZWOPER-OSHA.com — SWPPP Preparer listing](https://hazwoper-osha.com/online-courses/qualified-swppp-preparer-training): Virtual Instructor-Led and In-Person Group options.
+- [Industrial Certified Training, LLC](https://ictraining.us/): Parent company, specializing in OSHA, EPA, and IACET-accredited training.
+
+## Contact
+
+- Phone: 1-866-429-6742
+- Email: info@hazwoper-osha.com
