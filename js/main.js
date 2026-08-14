@@ -1,4 +1,59 @@
+// Show/hide any known chat widget via its own JS API, so it doesn't clutter the
+// machine view. Safe to call even if no widget is present, or before it has loaded.
+function setChatWidgetVisible(visible) {
+  // Tawk.to
+  window.Tawk_API = window.Tawk_API || {};
+  var previousTawkOnLoad = window.Tawk_API.onLoad;
+  var applyTawkState = function () {
+    if (visible) {
+      if (typeof Tawk_API.showWidget === 'function') Tawk_API.showWidget();
+    } else {
+      // A maximized (open) chat window can otherwise ignore hideWidget(), so
+      // minimize it first.
+      if (typeof Tawk_API.isChatMaximized === 'function' && Tawk_API.isChatMaximized() && typeof Tawk_API.minimize === 'function') {
+        Tawk_API.minimize();
+      }
+      if (typeof Tawk_API.hideWidget === 'function') Tawk_API.hideWidget();
+    }
+  };
+  window.Tawk_API.onLoad = function () {
+    if (typeof previousTawkOnLoad === 'function') previousTawkOnLoad();
+    applyTawkState();
+  };
+  applyTawkState();
+
+  // Intercom
+  if (typeof window.Intercom === 'function') {
+    window.Intercom('update', { hide_default_launcher: !visible });
+  }
+
+  // Drift
+  if (window.drift && window.drift.api && window.drift.api.widget) {
+    try {
+      if (visible) { window.drift.api.widget.show(); } else { window.drift.api.widget.hide(); }
+    } catch (e) { /* Drift not fully loaded yet, ignore */ }
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function () {
+
+  // Human / Machine view toggle (mirrors cloudflare.com/connect/'s pattern)
+  var viewToggle = document.getElementById('viewToggle');
+  if (viewToggle) {
+    var viewButtons = viewToggle.querySelectorAll('.view-toggle-btn');
+    var setViewMode = function (mode) {
+      document.documentElement.setAttribute('data-mode', mode);
+      viewButtons.forEach(function (btn) {
+        var isActive = btn.dataset.view === mode;
+        btn.classList.toggle('active', isActive);
+        btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+      setChatWidgetVisible(mode !== 'machine');
+    };
+    viewButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () { setViewMode(btn.dataset.view); });
+    });
+  }
 
   // Mobile nav toggle
   var navToggle = document.getElementById('navToggle');
