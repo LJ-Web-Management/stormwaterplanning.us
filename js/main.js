@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.preventDefault();
       var seats = Math.max(1, parseInt(seatsInput ? seatsInput.value : '1', 10) || 1);
       var courseKey = pricingCard ? pricingCard.dataset.course : 'qsp';
-      window.location.href = '/checkout.html?course=' + encodeURIComponent(courseKey) + '&seats=' + encodeURIComponent(seats);
+      window.location.href = 'checkout.html?course=' + encodeURIComponent(courseKey) + '&seats=' + encodeURIComponent(seats);
     });
   });
 
