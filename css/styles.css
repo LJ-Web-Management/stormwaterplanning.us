@@ -218,9 +218,12 @@ table{border-collapse:collapse;width:100%;}
 .hero-card h3{font-size:1.05rem;margin-bottom:1rem;}
 .hero-card-courses{display:flex;flex-direction:column;gap:10px;margin-bottom:0;}
 .hero-card-course{
-  display:flex;justify-content:space-between;align-items:center;gap:.75rem;
-  padding:.85rem 1rem;border:1px solid var(--gray-200);border-radius:10px;
+  border:1px solid var(--gray-200);border-radius:10px;
   transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease, background-color .2s ease;
+}
+.hero-card-course a{
+  display:flex;justify-content:space-between;align-items:center;gap:.75rem;
+  padding:.85rem 1rem;text-decoration:none;color:inherit;
 }
 .hero-card-course:hover{
   transform:translateY(-3px) scale(1.015);
