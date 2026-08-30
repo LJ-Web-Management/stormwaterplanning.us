@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var stripeCheckoutForm = document.getElementById('stripeCheckoutForm');
   if (stripeCheckoutForm) {
-    var API_BASE_URL = window.API_BASE_URL || (typeof API_BASE_URL !== 'undefined' ? API_BASE_URL : 'https://staging.hazwoper-osha.com/api');
+    var apiBaseUrl = window.API_BASE_URL || (typeof API_BASE_URL !== 'undefined' ? API_BASE_URL : 'https://hazwoper-osha.com/api');
     var activeStripeKey = (typeof STRIPE_PUBLISHABLE_KEY !== 'undefined' && STRIPE_PUBLISHABLE_KEY)
       ? STRIPE_PUBLISHABLE_KEY
       : (window.STRIPE_PUBLISHABLE_KEY || '');
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function () {
           client: 'web'
         };
 
-        var addUserRes = await fetch(API_BASE_URL + '/add_new_user', {
+        var addUserRes = await fetch(apiBaseUrl + '/add_new_user', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(userPayload)
@@ -371,7 +371,6 @@ document.addEventListener('DOMContentLoaded', function () {
           payment_method_id: paymentMethodId,
           order_type: 'normal',
           order_status: 'pending',
-          order_form: 'stormwaterplanning.us',
           order_from: 'stormwaterplanning.us',
           billing_first_name: firstName,
           billing_last_name: lastName,
@@ -400,7 +399,7 @@ document.addEventListener('DOMContentLoaded', function () {
           client: 'web'
         };
 
-        var addOrderRes = await fetch(API_BASE_URL + '/add_order', {
+        var addOrderRes = await fetch(apiBaseUrl + '/add_order', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(orderPayload)

@@ -26,7 +26,30 @@ var tierForSeats = function (seats) {
   return BULK_TIERS[0];
 };
 
+var tierLabel = function (tier) {
+  return tier.min === tier.max ? String(tier.min) : tier.min + '–' + tier.max.toLocaleString('en-US');
+};
+
 var tierPrice = function (basePrice, tier) {
   var discount = (tier && typeof tier.discount === 'number') ? tier.discount : 0;
   return Math.round(basePrice * (1 - discount) * 100) / 100;
 };
+
+// Mobile nav toggle (shared by all pages; lets the checkout page run without main.js)
+document.addEventListener('DOMContentLoaded', function () {
+  var navToggle = document.getElementById('navToggle');
+  var mainNav = document.getElementById('mainNav');
+  if (navToggle && mainNav && !navToggle.dataset.navWired) {
+    navToggle.dataset.navWired = '1';
+    navToggle.addEventListener('click', function () {
+      var isOpen = mainNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    mainNav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        mainNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+});
