@@ -1,0 +1,13 @@
+{
+  "name": "stormwaterplanning-blog-convert",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Word-document-to-blog-post conversion for stormwaterplanning.us/blog.",
+  "scripts": {
+    "convert": "node scripts/convert.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.0",
+    "mammoth": "^1.8.0"
+  }
+}

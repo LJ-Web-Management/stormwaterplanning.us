@@ -27,4 +27,34 @@
   <url><loc>https://stormwaterplanning.us/certificate-policy/</loc><lastmod>2026-08-18</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://stormwaterplanning.us/group-training-policy/</loc><lastmod>2026-08-18</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://stormwaterplanning.us/contact/</loc><lastmod>2026-08-18</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/stormwater-plan-review-for-infill-development-what-to-resolve-before-civil-submittal.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/construction-stormwater-permit-readiness-before-mobilization-what-teams-should-confirm-first.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/industrial-stormwater-planning-for-outdoor-operations-what-facilities-should-document-before-problems-start.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/stormwater-utility-capital-planning-how-municipalities-turn-drainage-needs-into-defensible-projects.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/green-infrastructure-planning-for-tight-urban-sites-what-to-review-before-choosing-bmps.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
