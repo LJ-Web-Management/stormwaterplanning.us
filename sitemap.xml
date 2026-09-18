@@ -57,4 +57,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/gis-storm-drain-inventory-planning-what-municipalities-should-map-before-setting-priorities.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
