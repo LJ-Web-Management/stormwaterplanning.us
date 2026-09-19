@@ -12,7 +12,7 @@
   --text:      #1d1d1f;
   --text-body: #424245;
   --text-2:    #6e6e73;
-  --text-3:    #86868b;
+  --text-3:    #6c6c72;
   --text-4:    #aeaeb2;
   --faint:     #d2d2d7;
   --hairline:  rgba(0,0,0,0.07);
@@ -214,7 +214,7 @@ strong{font-weight:600;}
   overflow:hidden;
   background-image:
     linear-gradient(125deg, rgba(0,50,120,0.32) 0%, rgba(30,15,80,0.22) 55%, rgba(4,6,16,0.4) 100%),
-    url('../images/hero-storm.webp?v=2');
+    url('../images/hero-storm.webp?v=3');
   background-repeat:no-repeat, no-repeat;
   background-position:center, 32% 48%;
   background-size:cover, cover;
@@ -295,7 +295,7 @@ strong{font-weight:600;}
   padding:.4rem .85rem;border-radius:var(--r-pill);
   box-shadow:0 4px 12px rgba(0,0,0,.18);
 }
-.hero-card h3{font-size:16px;margin-bottom:1rem;letter-spacing:-0.01em;}
+.hero-card-title{font-size:16px;margin-bottom:1rem;letter-spacing:-0.01em;font-weight:700;color:var(--text);}
 .hero-card-courses{display:flex;flex-direction:column;gap:0;margin-bottom:0;border-top:1px solid var(--hairline);}
 .hero-card-course{
   border-bottom:1px solid var(--hairline);
@@ -428,7 +428,7 @@ strong{font-weight:600;}
 .curriculum-list li:last-child{border-bottom:none;}
 .curriculum-list li:hover{background:var(--hover);}
 .curriculum-num{
-  font-size:15px;font-weight:650;color:var(--faint);
+  font-size:15px;font-weight:650;color:var(--text-3);
   min-width:30px;font-variant-numeric:tabular-nums;
 }
 .curriculum-list h4{font-size:15.5px;margin-bottom:.3rem;color:var(--text);font-weight:600;letter-spacing:-0.01em;}
@@ -469,7 +469,7 @@ strong{font-weight:600;}
 .pricing-toggle-btn{
   font-family:inherit;
   font-size:13px;font-weight:500;
-  color:var(--text-2);
+  color:var(--text-body);
   background:transparent;
   border:none;
   padding:9px 18px;
