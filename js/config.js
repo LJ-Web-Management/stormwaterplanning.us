@@ -36,6 +36,16 @@ var tierPrice = function (basePrice, tier) {
 
 // Mobile nav toggle (shared by all pages; lets the checkout page run without main.js)
 document.addEventListener('DOMContentLoaded', function () {
+  var siteHeader = document.querySelector('.site-header');
+  if (siteHeader && !siteHeader.dataset.scrollWired) {
+    siteHeader.dataset.scrollWired = '1';
+    var updateHeaderScrolled = function () {
+      siteHeader.classList.toggle('scrolled', window.scrollY > 8);
+    };
+    updateHeaderScrolled();
+    window.addEventListener('scroll', updateHeaderScrolled, { passive: true });
+  }
+
   var navToggle = document.getElementById('navToggle');
   var mainNav = document.getElementById('mainNav');
   if (navToggle && mainNav && !navToggle.dataset.navWired) {
