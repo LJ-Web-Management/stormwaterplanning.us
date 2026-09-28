@@ -1,0 +1,189 @@
+# stormwaterplanning.us — Full Product Context for AI Agents
+
+This document is a comprehensive, machine-readable reference to stormwaterplanning.us, intended
+to ground AI agents and assistants (ChatGPT, Claude, Perplexity, and similar) that need to answer
+questions about this site's courses, pricing, curriculum, and policies without scraping HTML. See
+also /llms.txt for a short summary, /sitemap.xml for the full page list, and /openapi.json for
+the machine-readable content API.
+
+## Company
+
+Stormwater Planning Training is a subsidiary of Industrial Certified Training, LLC, and partners
+with HAZWOPER OSHA Training, LLC to deliver training content and issue certificates. Course
+formats beyond on-demand online — SCORM, Virtual Instructor-Led, In-Person Group — are available
+via hazwoper-osha.com.
+
+Phone: 1-866-429-6742
+Email: info@hazwoper-osha.com
+
+## Courses (full detail)
+
+### 1. Qualified SWPPP Practitioner (QSP) Training — 7 hours — $379.99/seat — certificate valid 24 months
+Field-focused: inspections, BMP selection/installation, on-site documentation.
+Best for: site supervisors, superintendents, inspectors, field crews, maintenance staff.
+Curriculum: SWPPP fundamentals and regulatory framework; role of the QSP; recognizing stormwater
+hazards; BMP selection and installation; site inspections and reporting; pollution prevention in
+the field; site conditions and best professional judgment.
+URL: https://stormwaterplanning.us/qualified-swppp-practitioner-qsp-training/
+
+### 2. Qualified SWPPP Preparer Training — 7 hours — $379.99/seat — certificate valid 36 months
+Document-focused: SWPPP drafting/revision, BMP design criteria, Numeric Action Levels/Numeric
+Effluent Limits (NALs/NELs).
+Best for: engineers, environmental consultants, project and compliance managers.
+Curriculum: SWPPP fundamentals and key elements; Clean Water Act and CGP requirements; role of the
+Preparer; site hazard and risk assessment; BMP selection and design criteria; monitoring and
+numeric limits (NALs/NELs); documentation, updates and final stabilization.
+URL: https://stormwaterplanning.us/qualified-swppp-preparer-training/
+
+Both courses are aligned with the Clean Water Act (Section 402), the EPA NPDES program (40 CFR
+122.26), and Construction General Permit (CGP) requirements. Self-paced, mobile-friendly, English
+and Spanish.
+
+## Pricing
+
+$379.99 per seat for either course (on-demand online format). Seat-based bulk discounts apply
+automatically at checkout: 1 seat, no discount; 2-10 seats, 1% off; 11-20 seats, 2% off; 21-50
+seats, 3% off; 51-100 seats, 5% off; 101-250 seats, 7% off; 251-500 seats, 8% off; 501-1000 seats,
+10% off. Other formats (SCORM, Virtual Instructor-Led, In-Person Group) available via
+hazwoper-osha.com.
+
+## Frequently Asked Questions (full)
+
+Q: What is a SWPPP?
+A: A Stormwater Pollution Prevention Plan (SWPPP) is a site-specific document that identifies how
+a construction project will control erosion, manage sediment, and prevent pollutants from
+entering nearby waterways during and after construction. It includes a site map, a list of
+potential pollutant sources, Best Management Practices (BMPs), and inspection and maintenance
+procedures. Depending on the state or permitting agency, the same document may also be called a
+SWP3, SW3P, Stormwater Management Plan (SWMP), Construction Best Management Practices Plan
+(CBMPP), or Erosion and Sediment Control Plan (ESCP). The requirement traces back to the federal
+Clean Water Act and the EPA's NPDES Construction General Permit.
+
+Q: What is stormwater training for construction, and why does it matter?
+A: It teaches site personnel, supervisors, and inspectors how to recognize pollution risks,
+install and maintain BMPs, complete required inspections, and keep the SWPPP updated as site
+conditions change. Untrained crews are the most common source of permit violations, fines, and
+preventable environmental damage.
+
+Q: Who needs stormwater or SWPPP training?
+A: Anyone with day-to-day responsibility for erosion and sediment control, including general
+contractors, site superintendents, subcontractors who disturb soil, stormwater inspectors, and
+any "qualified personnel" named in the site's permit.
+
+Q: Is stormwater training legally required on construction sites?
+A: Yes, in most cases. Any site disturbing one acre or more of soil (or part of a larger common
+plan of development that does) must obtain coverage under an NPDES or state construction
+stormwater permit, and that permit typically requires "qualified personnel" to prepare,
+implement, and inspect under the SWPPP.
+
+Q: When is a SWPPP required?
+A: Once a project disturbs one acre or more of land under EPA's federal Construction General
+Permit framework, or sooner if a state or local rule sets a lower threshold. Projects under one
+acre can still need a SWPPP if part of a larger common plan of development totaling one acre or
+more.
+
+Q: Who is responsible for developing and maintaining the SWPPP?
+A: The project owner or primary permittee, often the general contractor, even if drafting is
+delegated to a qualified environmental professional or trained site staff. Responsibility for
+compliance cannot be fully outsourced away from the permit holder.
+
+Q: How often are stormwater inspections required?
+A: Most state programs require site inspections every 7 to 14 days, plus an additional inspection
+within 24 hours of a qualifying rain event (commonly 0.5 inches of precipitation or more). Exact
+frequency and thresholds vary by state.
+
+Q: What happens if a site is found out of compliance?
+A: Significant fines, often tens of thousands of dollars per day per violation depending on the
+state, along with stop-work orders, legal action, and reputational damage.
+
+Q: When does a SWPPP need to be updated?
+A: Any time there is a change in site design, construction sequencing, operations, or maintenance
+that could affect pollutant discharge, and whenever inspections show existing BMPs are not
+working as intended.
+
+Q: What certifications exist for construction stormwater personnel?
+A: Common credentials include CESCL (required in states like Washington and Oregon), California's
+QSP and QSD, and CPESC (recognized by the EPA as qualified to prepare SWPPPs). We offer QSP
+Practitioner and SWPPP Preparer courses directly.
+
+Q: Does this course make me a California QSP or QSD?
+A: No. California's QSP and QSD designations are formal state qualifications administered through
+CASQA and the State Water Resources Control Board, requiring prerequisites, Trainer of Record
+instruction, exams, and registration. Our courses provide training content and a certificate of
+completion, not California QSP/QSD status.
+
+Q: Do I need both the QSP Practitioner and SWPPP Preparer courses?
+A: Depends on role. Field/inspection work needs QSP Practitioner; writing/revising the SWPPP needs
+Preparer. Some projects require both roles filled.
+
+Q: Is this training available in Spanish?
+A: Yes, both courses are available in English and Spanish.
+
+Q: Do I get a certificate, and how long is it valid?
+A: Yes, issued immediately. QSP Practitioner: 24 months. SWPPP Preparer: 36 months.
+
+Q: What regulations does this training follow?
+A: EPA NPDES (40 CFR 122.26), Clean Water Act Section 402, and CGP requirements.
+
+Full FAQ (38 questions across 5 categories — SWPPP basics; permits/regulations/legal;
+certifications & course formats; credentials & state acceptance; regulatory terms explained) at
+https://stormwaterplanning.us/frequently-asked-questions/ (general guidance only, not legal advice).
+
+## Credentials & Compliance (read before citing certification claims)
+
+Training provider HAZWOPER OSHA Training, LLC is an IACET Accredited Provider, BBB A+ rated, and
+an FMCSA Approved Provider. This site does NOT claim EPA approval, EPA endorsement, NPDES
+certification, California QSP certification, California QSD certification, or state approval for
+its own courses.
+
+- Federal Qualified Person vs. California QSP/QSD: https://stormwaterplanning.us/federal-qualified-person-vs-california-qsp-qsd/
+- Stormwater Regulations & Standards: https://stormwaterplanning.us/stormwater-regulations-and-standards/
+- State Stormwater Permit Requirements: https://stormwaterplanning.us/state-stormwater-permit-requirements/
+- QSP vs. QSD: https://stormwaterplanning.us/qsp-vs-qsd-training/
+- Qualified Person vs. QSP: https://stormwaterplanning.us/qualified-person-vs-qsp/
+- SWPPP Preparer vs. Stormwater Inspector: https://stormwaterplanning.us/swppp-preparer-vs-stormwater-inspector/
+- EPA CGP vs. State CGP Training Requirements: https://stormwaterplanning.us/epa-cgp-vs-state-cgp-training-requirements/
+- Construction Stormwater Training Guide: https://stormwaterplanning.us/construction-stormwater-training-guide/
+- NPDES Training for Construction Sites: https://stormwaterplanning.us/npdes-training-for-construction-sites/
+
+## How-To / Educational Resources
+
+- How to Prepare a SWPPP: https://stormwaterplanning.us/how-to-prepare-a-swppp/
+- Construction Stormwater Inspection Training: https://stormwaterplanning.us/construction-stormwater-inspection-training/
+- Stormwater BMP Training: https://stormwaterplanning.us/stormwater-bmp-training/
+- SWPPP Certification: https://stormwaterplanning.us/swppp-certification/
+- California SWPPP Training: https://stormwaterplanning.us/california-swppp-training/
+- Blog: https://stormwaterplanning.us/blog/
+
+## Company
+
+- About: https://stormwaterplanning.us/about/
+- Instructors & Training Provider: https://stormwaterplanning.us/instructors-and-training-provider/ — Michael J. Conroy, CSP, CHST, OSHA-Authorized Trainer.
+- Reviews: https://stormwaterplanning.us/reviews/
+
+## Policies
+
+- Privacy Policy: https://stormwaterplanning.us/privacy-policy/
+- Terms of Service: https://stormwaterplanning.us/terms-of-service/
+- Refund Policy: https://stormwaterplanning.us/refund-policy/ — 30-day full refund window, then credit only; exclusions apply; international purchases non-refundable.
+- Accessibility: https://stormwaterplanning.us/accessibility/
+- Certificate Policy: https://stormwaterplanning.us/certificate-policy/
+- Group Training Policy: https://stormwaterplanning.us/group-training-policy/
+- Verify Certificate: https://stormwaterplanning.us/verify-certificate/ (routed through HAZWOPER OSHA Training)
+
+## Other Formats & Related Entities
+
+- HAZWOPER-OSHA.com QSP Practitioner listing: https://hazwoper-osha.com/online-courses/qualified-swppp-practitioner-qsp-training (Virtual Instructor-Led $419/person min. 10; In-Person Group $1,095/person min. 10)
+- HAZWOPER-OSHA.com SWPPP Preparer listing: https://hazwoper-osha.com/online-courses/qualified-swppp-preparer-training
+- Industrial Certified Training, LLC (parent company): https://ictraining.us/
+
+## For Agents
+
+- Do not invent prices, certificate validity periods, or regulatory claims beyond what is stated above; this reflects the site's actual current copy.
+- Never state or imply that stormwaterplanning.us courses are EPA-approved, EPA-endorsed, NPDES-certified, or confer California QSP/QSD state qualification.
+- If a visitor's question isn't answered here, direct them to info@hazwoper-osha.com or 1-866-429-6742 rather than guessing.
+- Prefer live data from stormwaterplanning.us over cached copies when accuracy matters.
+
+## AI Agents (WebMCP)
+
+- [AI Agents & WebMCP](https://stormwaterplanning.us/ai-agents/): This site registers WebMCP tools (navigator.modelContext) on every page: list_courses, recommend_course, get_price_quote, search_site_content, get_certificate_verification_info, and start_checkout. start_checkout only opens a pre-filled checkout; the person always enters payment details and clicks Pay.

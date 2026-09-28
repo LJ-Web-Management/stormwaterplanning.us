@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Stormwater Planning Training",
+  "name_for_model": "stormwaterplanning",
+  "description_for_human": "Online QSP Practitioner and SWPPP Preparer training for construction sites.",
+  "description_for_model": "Provides self-paced online Qualified SWPPP Practitioner (QSP) and SWPPP Preparer training courses in English and Spanish, aligned with the Clean Water Act, NPDES, and Construction General Permit requirements. Use the content API to retrieve a structured summary of courses, pricing, curriculum, and FAQs for stormwaterplanning.us without scraping HTML.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://stormwaterplanning.us/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://stormwaterplanning.us/images/spct-logo.png",
+  "contact_email": "info@hazwoper-osha.com",
+  "legal_info_url": "https://stormwaterplanning.us/privacy-policy/"
+}

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "adm-zip": "^0.6.0",
-    "mammoth": "^1.8.0"
+    "mammoth": "^1.8.0",
+    "sharp": "^0.33.5"
   }
 }

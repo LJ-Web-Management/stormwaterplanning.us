@@ -31,37 +31,143 @@
   <url><loc>https://stormwaterplanning.us/group-training-policy/</loc><lastmod>2026-08-18</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://stormwaterplanning.us/contact/</loc><lastmod>2026-08-18</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://stormwaterplanning.us/ai-agents/</loc>
+    <lastmod>2026-09-27</lastmod>
+  </url>
+  <url>
     <loc>https://stormwaterplanning.us/blog/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://stormwaterplanning.us/blog/posts/stormwater-plan-review-for-infill-development-what-to-resolve-before-civil-submittal.html</loc>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://stormwaterplanning.us/blog/posts/construction-stormwater-permit-readiness-before-mobilization-what-teams-should-confirm-first.html</loc>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://stormwaterplanning.us/blog/posts/industrial-stormwater-planning-for-outdoor-operations-what-facilities-should-document-before-problems-start.html</loc>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://stormwaterplanning.us/blog/posts/stormwater-utility-capital-planning-how-municipalities-turn-drainage-needs-into-defensible-projects.html</loc>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://stormwaterplanning.us/blog/posts/green-infrastructure-planning-for-tight-urban-sites-what-to-review-before-choosing-bmps.html</loc>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://stormwaterplanning.us/blog/posts/gis-storm-drain-inventory-planning-what-municipalities-should-map-before-setting-priorities.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/outfall-screening-and-idde-planning-for-ms4-communities-what-to-organize-before-field-work.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/drainage-due-diligence-before-buying-or-developing-land-what-to-review-early.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/stormwater-submittal-completeness-for-developers-what-reviewers-need-before-approval.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/bmp-selection-mistakes-that-create-long-term-stormwater-maintenance-problems.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/erosion-and-sediment-control-planning-before-land-disturbance-what-to-set-before-grading-starts.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/ms4-program-review-for-municipalities-what-to-check-before-the-next-permit-cycle.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/post-construction-stormwater-maintenance-plans-what-owners-and-municipalities-should-set-before-closeout.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/flood-mitigation-project-scoping-for-stormwater-systems-what-to-document-before-funding-requests.html</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/when-a-project-needs-a-stormwater-management-plan-what-owners-should-confirm-early.html</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/swppp-inspection-planning-before-construction-what-teams-should-organize-before-the-first-rain.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/prioritizing-drainage-complaints-across-a-municipal-stormwater-system.html</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/culvert-and-outfall-maintenance-planning-what-municipalities-should-document-before-budget-season.html</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/stormwater-planning-for-redevelopment-and-infill-sites-what-to-review-before-design-starts.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/stormwater-plan-review-comment-logs-a-practical-way-to-reduce-repeat-submittals.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/outfall-screening-records-what-ms4-teams-should-document-before-field-work.html</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stormwaterplanning.us/blog/posts/stormwater-drainage-study-scope-what-cities-and-developers-should-define-before-modeling-begins.html</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

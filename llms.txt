@@ -48,6 +48,10 @@ Stormwater Planning Training is a subsidiary of Industrial Certified Training, L
 - [HAZWOPER-OSHA.com, SWPPP Preparer listing](https://hazwoper-osha.com/online-courses/qualified-swppp-preparer-training): Virtual Instructor-Led and In-Person Group options.
 - [Industrial Certified Training, LLC](https://ictraining.us/): parent company, specializing in OSHA, EPA, and IACET-accredited training.
 
+## AI Agents (WebMCP)
+
+- [AI Agents & WebMCP](https://stormwaterplanning.us/ai-agents/): This site registers WebMCP tools (navigator.modelContext) on every page: list_courses, recommend_course, get_price_quote, search_site_content, get_certificate_verification_info, and start_checkout. start_checkout only opens a pre-filled checkout; the person always enters payment details and clicks Pay.
+
 ## Contact
 
 - Phone: 1-866-429-6742

@@ -1,0 +1,75 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Stormwater Planning Training Content API",
+    "description": "Read-only, machine-readable content endpoints for stormwaterplanning.us, published for AI agents and assistants (ChatGPT, Claude, Perplexity, and similar). All endpoints are static text/XML files, require no authentication, and mirror the site's current published content.",
+    "version": "1.0.0",
+    "contact": {
+      "email": "info@hazwoper-osha.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://stormwaterplanning.us"
+    }
+  ],
+  "paths": {
+    "/llms.txt": {
+      "get": {
+        "operationId": "getSiteSummary",
+        "summary": "Get a concise, structured summary of this site",
+        "description": "Returns a short Markdown summary of courses, pricing, resources, and contact information, formatted per the llms.txt convention.",
+        "responses": {
+          "200": {
+            "description": "Markdown site summary",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms-full.txt": {
+      "get": {
+        "operationId": "getSiteFullContext",
+        "summary": "Get comprehensive, structured product context for this site",
+        "description": "Returns a detailed Markdown document covering every course, curriculum module, pricing tier, policy, and FAQ answer published on the site, intended as complete grounding context for AI agents.",
+        "responses": {
+          "200": {
+            "description": "Markdown full-context document",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sitemap.xml": {
+      "get": {
+        "operationId": "getSitemap",
+        "summary": "Get the full list of published pages",
+        "description": "Returns the XML sitemap listing every publicly indexable page on the site.",
+        "responses": {
+          "200": {
+            "description": "XML sitemap",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
